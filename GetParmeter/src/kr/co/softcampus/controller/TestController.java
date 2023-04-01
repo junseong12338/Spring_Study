@@ -107,5 +107,16 @@ public class TestController {
 	
 		return "result";
 	}
+	
+	@GetMapping("/test7")
+	public String test7(@RequestParam int data1,
+						@RequestParam (required = false) String data2,
+						@RequestParam (defaultValue =  "0") String data3) {
+		
+		System.out.println("data1 : " + data1);
+		System.out.println("data2 : " + data2);
+		System.out.println("data3 : " + data3);
+		return "result";
+	}
 
 }

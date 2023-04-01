@@ -32,5 +32,11 @@
 	<hr />
 	<a href='test6?data1=100&data2=200&data3=300&data3=400'>test6</a>
 	<br />
+
+	<hr />
+	<a href='test7?data1=100'>test7</a>
+	<br />
+
+
 </body>
 </html>
